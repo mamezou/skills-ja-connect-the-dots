@@ -4,30 +4,30 @@
   Define terms and link to docs.github.com.
 -->
 
-## Step 2: Find a commit in history
+## Step 2: 履歴からコミットを見つける
 
-_Thanks for the duplicate note :wave:_
+_重複の指摘をありがとうございます :wave:_
 
-An important part of version control is the ability to look into the past. By using `git blame`, and finding the story behind a commit, we're able to do more than _blame_ people for code. We're able to see the story around why a commit was made. What is the associated pull request? Who approved the pull request? What tests were run on that commit before it was merged?
+バージョン管理の重要な点のひとつは、過去をさかのぼって見られることです。`git blame` を使ってコミットの背景をたどると、コードについて人を _blame_（責める）する以上のことができます。なぜコミットが行われたのかという経緯が見えます。関連する pull request はどれか。誰が pull request を承認したか。マージ前にどんなテストが実行されたか。
 
-The obvious reason to find things in history is to know about the history. With issues and pull requests, we see a more complete story about the history, not just the bare minimum.
+履歴を調べる分かりやすい理由は、履歴を知るためです。Issue と pull request があれば、最低限の情報だけでなく、より完全な経緯が分かります。
 
-### What's `git blame`?
+### `git blame` とは
 
-`git blame` is a Git functionality that shows what revision and author last modified each line of a file. Information like who made a commit, when, and even why can be found this way. If you aren't sure who introduced certain changes to a file, you can use `git blame` to find out. While `git blame` sounds rather accusatory, this can be used to understand the context around decisions.
+`git blame` は、ファイルの各行を最後に変更したリビジョンと作者を表示する Git の機能です。誰がいつコミットしたか、さらになぜコミットしたかまで調べられます。ファイルへの変更を誰が入れたのか分からないときは、`git blame` で確認できます。`git blame` という名前は責任追及のように聞こえますが、判断の背景を理解するために使えます。
 
-### What's a Secure Hash Algorithm (SHA)?
+### SHA（Secure Hash Algorithm）とは
 
-A SHA is a reference to a specific object. In this case, it's a reference to a commit. On GitHub, you can look at a specific commit to see the changes introduced, by whom, and if they were a part of a pull request.
+SHA は特定のオブジェクトへの参照です。演習ではコミットへの参照を指します。GitHub では、特定のコミットを開くと、どんな変更が入ったか、誰が入れたか、pull request の一部だったかを確認できます。
 
-### :keyboard: Activity: Find commit in history
+### :keyboard: やること: 履歴からコミットを見つける
 
-1. Navigate to the Code tab of your repository
-   - _Tip: you may have previously created your repository in a new tab_
-2. Click `docs` to navigate into the `/docs` directory
-3. Click `_sidebar.md` to view the file
-4. On the top of the file, click **Blame** to see the details of the most recent revision
-5. Click the commit message, `add sidebar to documentation` to see the commit details
-6. Copy the first seven characters of the SHA (the first 7 characters of the 40 character hexadecimal string listed after `commit`)
-7. Comment on issue #2 by adding the SHA from step 6 as a comment text and click on "Comment" button
-8. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+1. 自分のリポジトリの Code タブを開きます。
+   - _ヒント: リポジトリは別のタブで開いているかもしれません_
+2. `docs` をクリックして `/docs` ディレクトリに入ります。
+3. `_sidebar.md` をクリックしてファイルを表示します。
+4. ファイルの上部にある **Blame** をクリックし、直近のリビジョンの詳細を見ます。
+5. コミットメッセージ `add sidebar to documentation` をクリックして、コミットの詳細を表示します。
+6. SHA の先頭 7 文字をコピーします（`commit` の後ろに並ぶ 40 文字の 16 進数の、最初の 7 文字です）。
+7. 手順 6 の SHA をコメント本文にして Issue #2 にコメントし、"Comment" ボタンをクリックします。
+8. 20 秒ほど待ってから、手順を読んでいるページ（README）を再読み込みします。[GitHub Actions](https://docs.github.com/en/actions) が自動で次の Step に更新します。

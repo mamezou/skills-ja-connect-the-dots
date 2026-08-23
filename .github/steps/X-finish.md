@@ -3,29 +3,29 @@
   Review what we learned, ask for feedback, provide next steps.
 -->
 
-## Finish
+## 完了
 
-_Congratulations friend, you've completed this course! :tada:_
+_おめでとうございます、コースを完了しました！ :tada:_
 
 <img src="https://octodex.github.com/images/collabocats.jpg" alt=celebrate width=300 align=right>
 
-In this course, you've learned a lot about finding and sharing information. Within a GitHub repository, you can find history about what changes were made, and more importantly, _why_ changes were made.
+今回のコースでは、情報を見つけて共有する方法を学びました。GitHub のリポジトリの中では、どんな変更が行われたかの履歴と、さらに重要な _なぜ_ 変更が行われたかを調べられます。
 
-### What's next?
+### 次にできること
 
-You can enable GitHub Pages and see `docs/index.html` as a website!
+GitHub Pages を有効にすると、`docs/index.html` を Web サイトとして表示できます。
 
-1. Replace `USERNAME` with your GitHub username and `REPONAME` with your GitHub repository name in `docs/index.html`.
-1. Under your repository name at the upper right, click :gear: **Settings**.
-1. Then on the lower left, click **Pages**.
-1. In the **GitHub Pages** section, select `main` in the **Select branch** drop-down menu and `/docs` in the **Select folder** drop-down menu.
-1. Click the **Save** button.
-1. Wait about 30 seconds then refresh the page. When you see "Your site is published at ...," you can click on the link to see your published site.
+1. `docs/index.html` の中の `USERNAME` を自分の GitHub ユーザー名に、`REPONAME` を自分のリポジトリ名に置き換えます。
+1. リポジトリ名の下、右上にある :gear: **Settings** をクリックします。
+1. 左下の **Pages** をクリックします。
+1. **GitHub Pages** の欄で、**Select branch** のドロップダウンから `main` を、**Select folder** のドロップダウンから `/docs` を選びます。
+1. **Save** ボタンをクリックします。
+1. 30 秒ほど待ってからページを再読み込みします。"Your site is published at ..." と表示されたら、リンクから公開されたサイトを見られます。
 
-Check out these resources to learn more or get involved:
+さらに学ぶ・参加するための情報です。
 
-- Are you a student? Check out the [Student Developer Pack](https://education.github.com/pack).
-- We'd love to hear what you thought of this course in our [discussion board](https://github.com/orgs/skills/discussions/categories/connect-the-dots).
-- [Take another GitHub Skills course](https://github.com/skills).
-- [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
+- 学生の方は [Student Developer Pack](https://education.github.com/pack) を確認してください。
+- コースの感想は [discussion board](https://github.com/orgs/skills/discussions/categories/connect-the-dots) で聞かせてください。
+- [ほかの GitHub Skills コースを受ける](https://github.com/skills)。
+- [GitHub Getting Started のドキュメントを読む](https://docs.github.com/en/get-started)。
+- 貢献できるプロジェクトを探すには [GitHub Explore](https://github.com/explore) を見てください。

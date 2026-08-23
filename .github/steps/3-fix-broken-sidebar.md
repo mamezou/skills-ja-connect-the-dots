@@ -4,36 +4,36 @@
   Define terms and link to docs.github.com.
 -->
 
-## Step 3: Fix a broken sidebar
+## Step 3: 壊れたサイドバーを直す
 
-_Great job finding that commit :heart:_
+_コミットを見つけられましたね :heart:_
 
-Thanks for finding that commit! We now know that the sidebar was indeed added, and it was done in that commit. Let's see if we can dig a little deeper to find out if any planning or conversation, using comments, occurred around this change.
+サイドバーが確かに追加されたこと、`add sidebar to documentation` のコミットで行われたことが分かりました。もう少し掘り下げて、変更をめぐる計画や会話がコメントとして残っていないか調べましょう。
 
-As we've already seen, conversations in issues and pull requests can reference other work, but the amount of context goes much further than crosslinks. Remember, Git is version control! For example, the commit that you found in the last step is connected with much more information such as:
+すでに見たとおり、Issue や pull request での会話は別の作業を参照できますが、得られる文脈はクロスリンクだけにとどまりません。Git はバージョン管理です。たとえば、前の Step で見つけたコミットには、次のような情報がひも付いています。
 
-- Who made the commit.
-- What other changes were included.
-- When the commit was made.
-- Which pull request the commit was a part of.
+- 誰がコミットをしたか。
+- ほかにどんな変更が含まれていたか。
+- いつコミットされたか。
+- どの pull request の一部だったか。
 
-The pull request is important because it goes beyond knowing when a commit happened. You can know _why_ a commit happened. Finding history is not about _blaming_ anyone, but about seeing the bigger picture. Why were decisions made? Who was involved? What were the build outputs and test results for each commit? Who requested changes, and who approved them?
+pull request が重要なのは、コミットがいつ行われたかを超えた情報が分かるからです。_なぜ_ コミットが行われたかを知ることができます。履歴を調べるのは誰かを _責める_ ためではなく、全体像を見るためです。なぜ判断がされたのか。誰が関わったのか。各コミットのビルド結果とテスト結果はどうだったのか。誰が変更を要求し、誰が承認したのか。
 
-### Finding a pull request from a commit
+### コミットから pull request を見つける
 
-When you're looking at a commit on GitHub, you can see a lot of information. From this view, you can also find a link to the pull request in which the commit was created. We'll use this in the next step.
+GitHub でコミットを表示すると、多くの情報が見られます。コミットの画面から、コミットが作られた pull request へのリンクもたどれます。次の Step で使います。
 
-![screenshot of a view of a commit on GitHub, highlighting the link to the pull request](https://user-images.githubusercontent.com/16547949/67341250-3edbb480-f4fd-11e9-805a-6bce5a8ba2d1.png)
+![GitHub のコミット画面で、pull request へのリンクを示したスクリーンショット](https://user-images.githubusercontent.com/16547949/67341250-3edbb480-f4fd-11e9-805a-6bce5a8ba2d1.png)
 
-### :keyboard: Activity: Fix a broken sidebar
+### :keyboard: やること: 壊れたサイドバーを直す
 
-1. In the main branch [Edit the `docs/_sidebar.md` file](/docs/_sidebar.md).
-2. Correct the spelling of the reference `(doc-references__.md)` on line 4 by changing it into `(doc-references.md)`.
-3. Select or create a new branch `fix-sidebar` for this commit and start a pull request.
-4. Make sure that **main** is selected for **base:** and **fix-sidebar** for **compare:**.
-5. Using the **Assignees** section on the right side, assign yourself to the pull request.
-6. In the PR comment add 'Closes #2' and autolink issue #2.
-7. Click **Create pull request** and wait about 20 seconds.
-8. Merge this pull request.
-9. Delete the branch 'fix-sidebar'.
-10. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+1. main ブランチで [`docs/_sidebar.md` ファイルを編集](/docs/_sidebar.md)します。
+2. 4 行目にある参照 `(doc-references__.md)` のつづりを `(doc-references.md)` に直します。
+3. コミット用に新しいブランチ `fix-sidebar` を選択または作成し、pull request を開始します。
+4. **base:** に **main**、**compare:** に **fix-sidebar** が選ばれていることを確認します。
+5. 右側の **Assignees** で、自分を pull request の担当者に割り当てます。
+6. pull request のコメントに 'Closes #2' と入力し、Issue #2 を自動リンクします。
+7. **Create pull request** をクリックし、20 秒ほど待ちます。
+8. pull request をマージします。
+9. ブランチ 'fix-sidebar' を削除します。
+10. 20 秒ほど待ってから、手順を読んでいるページ（README）を再読み込みします。[GitHub Actions](https://docs.github.com/en/actions) が自動で次の Step に更新します。
