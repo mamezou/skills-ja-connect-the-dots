@@ -30,4 +30,4 @@ SHA は特定のオブジェクトへの参照です。演習ではコミット�
 5. コミットメッセージ `add sidebar to documentation` をクリックして、コミットの詳細を表示します。
 6. SHA の先頭 7 文字をコピーします（`commit` の後ろに並ぶ 40 文字の 16 進数の、最初の 7 文字です）。
 7. 手順 6 の SHA をコメント本文にして Issue #2 にコメントし、"Comment" ボタンをクリックします。
-8. 20 秒ほど待ってから、手順を読んでいるページ（README）を再読み込みします。[GitHub Actions](https://docs.github.com/en/actions) が自動で次の Step に更新します。
+8. 20 秒ほど待ってから、手順を読んでいるページ（README）を再読み込みします。[GitHub Actions](https://docs.github.com/ja/actions) が自動で次の Step に更新します。

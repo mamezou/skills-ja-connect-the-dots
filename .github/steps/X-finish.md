@@ -27,5 +27,5 @@ GitHub Pages を有効にすると、`docs/index.html` を Web サイトとし�
 - 学生の方は [Student Developer Pack](https://education.github.com/pack) を確認してください。
 - コースの感想は [discussion board](https://github.com/orgs/skills/discussions/categories/connect-the-dots) で聞かせてください。
 - [ほかの GitHub Skills コースを受ける](https://github.com/skills)。
-- [GitHub Getting Started のドキュメントを読む](https://docs.github.com/en/get-started)。
+- [GitHub Getting Started のドキュメントを読む](https://docs.github.com/ja/get-started)。
 - 貢献できるプロジェクトを探すには [GitHub Explore](https://github.com/explore) を見てください。

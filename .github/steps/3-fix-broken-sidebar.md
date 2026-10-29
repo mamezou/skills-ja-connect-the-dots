@@ -36,4 +36,4 @@ GitHub でコミットを表示すると、多くの情報が見られます。�
 7. **Create pull request** をクリックし、20 秒ほど待ちます。
 8. pull request をマージします。
 9. ブランチ 'fix-sidebar' を削除します。
-10. 20 秒ほど待ってから、手順を読んでいるページ（README）を再読み込みします。[GitHub Actions](https://docs.github.com/en/actions) が自動で次の Step に更新します。
+10. 20 秒ほど待ってから、手順を読んでいるページ（README）を再読み込みします。[GitHub Actions](https://docs.github.com/ja/actions) が自動で次の Step に更新します。
