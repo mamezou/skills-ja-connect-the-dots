@@ -1,12 +1,5 @@
 <header>
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280x640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280x640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
-
 # Connect the dots in a GitHub repository（日本語版）
 
 _リポジトリの中をたどるときに役立つコツ。_
@@ -32,7 +25,7 @@ _リポジトリの中をたどるときに役立つコツ。_
   - 履歴を検索して背景を知る。
   - GitHub の中でつながりを作り、ほかの人が情報を見つけやすくする。
 - **作るもの**: 既存のコミット、重複した Issue、直すべき内容の不具合を含むリポジトリ
-- **前提**: 受講前に、GitHub Docs の [GitHub Quickstart](https://docs.github.com/en/get-started/quickstart) と GitHub Skills の [Introduction to GitHub](https://github.com/skills/introduction-to-github) に目を通しておくと理解しやすくなります。
+- **前提**: 受講前に、GitHub Docs の [GitHub Quickstart](https://docs.github.com/ja/get-started/quickstart) と GitHub Skills の [Introduction to GitHub](https://github.com/skills/introduction-to-github) に目を通しておくと理解しやすくなります。
 - **所要時間**: 15 分以内で完了します。
 
 コースで行うこと:
@@ -59,7 +52,7 @@ _リポジトリの中をたどるときに役立つコツ。_
 1. **Start course** を右クリックして、リンクを新しいタブで開きます。
 2. 開いたタブでは、入力欄のほとんどが自動で埋まります。
    - Owner には、リポジトリを置く個人アカウントまたは Organization を選びます。
-   - private リポジトリは [Actions の実行時間を消費する](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions)ため、public リポジトリを推奨します。
+   - private リポジトリは [Actions の実行時間を消費する](https://docs.github.com/ja/billing/managing-billing-for-github-actions/about-billing-for-github-actions)ため、public リポジトリを推奨します。
    - 下までスクロールし、フォーム下部の **Create repository** ボタンをクリックします。
 3. 新しいリポジトリが作られたら 20 秒ほど待ち、ページを再読み込みします。新しいリポジトリの README に出る手順に従って進めてください。
 

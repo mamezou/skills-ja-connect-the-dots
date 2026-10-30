@@ -20,10 +20,10 @@ GitHub には、GitHub 上の別の情報を参照するための特別な機能
 
 別の Issue へリンクすると、GitHub の中に参照が自動で作られます。完全な URL を書く必要すらありません。コメントの中に `#5` と入力すれば、Issue または pull request の 5 番へのリンクになります。
 
-クロスリンクを作りたいときは、`#` 記号を入力した直後に Issue や pull request のタイトルを打ち始めてください。GitHub が正しいリンク先の候補を提案します。さらに詳しくは [Autolinked References and URLs](https://docs.github.com/en/articles/autolinked-references-and-urls) の記事を参照してください。
+クロスリンクを作りたいときは、`#` 記号を入力した直後に Issue や pull request のタイトルを打ち始めてください。GitHub が正しいリンク先の候補を提案します。さらに詳しくは [Autolinked References and URLs](https://docs.github.com/ja/articles/autolinked-references-and-urls) の記事を参照してください。
 
 ### :keyboard: やること: クロスリンクされた Issue を見つけてクローズする
 
 1. Issue #1（Welcome）を開きます。
 2. コメントに "Duplicate of #2" と入力し、Issue #1 をクローズします。
-3. 20 秒ほど待ってから、手順を読んでいるページ（README）を再読み込みします。[GitHub Actions](https://docs.github.com/en/actions) が自動で次の Step に更新します。
+3. 20 秒ほど待ってから、手順を読んでいるページ（README）を再読み込みします。[GitHub Actions](https://docs.github.com/ja/actions) が自動で次の Step に更新します。
